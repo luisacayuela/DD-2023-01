@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Press+Start+2P&display=swap');
+
+.navbar {
+    font-size: small;
+    color:#182521;
+}
+
+.button{
+    padding:2%;
+    color:pink;   
+}
+
+body{
+    font-family: 'Press Start 2P';
+    background-color: #182521;
+}
+
+.banner{
+    background-color: #182521;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:pink;
+    padding: 50px;
+}
+
+img{
+    width: 90%;
+}
+.imagen {
+    width: 100%;
+}
+
+.container {
+ color:whitesmoke;
+ background-color: #182521;
+}
+
+.container h3{
+    color:pink;
+    padding:2%;
+   }
+
+.container p{
+    padding:2%;
+    font-size: small;
+   }
+
+.footer{
+    background-color: #182521;
+    height: 12vh;
+    padding: 20px;
+    text-align: center;
+    /*color:pink;*/
+    font-size: small;
+}
+

@@ -4,11 +4,20 @@
 .navbar {
     font-size: small;
     color:#182521;
+    position: fixed;
+    top:0%;
+    width: 100%;
+    padding: 20px;
 }
 
 .button{
     padding:2%;
-    color:pink;   
+    color:pink;
+}
+
+h2{
+    color:white;
+    padding: 10px;
 }
 
 body{
@@ -22,7 +31,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color:pink;
-    padding: 50px;
+    padding: 100px;
 }
 
 img{

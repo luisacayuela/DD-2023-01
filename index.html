@@ -17,7 +17,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">VISIÓN DE COLOR</a>
+        <a class="navbar-brand" href="index.html">VISIÓN DE COLOR</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SOBRE EL JUEGO</a>
+              <a class="nav-link" href="#sobre">SOBRE EL JUEGO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">RECURSOS</a>
+              <a class="nav-link" href="#RGB">SOBRE RGB</a>
             </li>
           </ul>
         </div>
@@ -47,8 +47,9 @@
 
     <div class="container-fluid banner text-center">
       <h1>Visión de color</h1>
+      <h2>¡Prueba tus habilidades!</h2>
       <div class="img"><img src="IMG/juego.png" alt="img juego"></div>
-      <button type="button" class="btn btn-primary btn-lg">Jugar!</button>
+      <a type="button" class="btn btn-primary btn-lg" href="https://luisacayuela.github.io/DD-COLOR/"> Ir a juego </a>
     </div>
 
     <div class="container mt-5 pt-5">
@@ -56,25 +57,39 @@
         <div class="col-12 col-lg-6">
           <img src="IMG/control.png" class="mx-auto imagen" alt="" />
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6" id="sobre">
           <h3>¿En qué consiste el juego?</h3>
-          <p>El juego se trata de seleccionar el color que no pertenece. 
-            Es decir, seleccionar el que no es igual a los otros.
-            Está diseñado para probar tus habilidades de diseño, sensibilidad al color y atención a detalles.
+          <p>El juego se trata de seleccionar el color al que se refiere el código RGB.
+            La barra en el lado derecho te hará saber si tu selección es correcta o no, 
+            el punto es atinarle hasta que esta te avise que fue correcto el cuadro que seleccionaste.
           </p>
           <h3>¿Cómo jugar?</h3>
-          <p>Utilizando las flechas de tu teclado (arriba, abajo, izquierda y derecha).
-            Muévete de lado a lado para seleccionar la casilla del color que crees que no pertenezca 
-            y brinca con la flecha hacia arriba para hacer tu selección.
+          <p>Utilizando tu mouse para seleccionar y cada vez que quieras volver a intentar solo tienes
+            que hacer click en generar. Y así puedes volver a empezar, también podrás ver que si no
+            haces la selección correcta los recuadros irán desapareciendo, minimizando tus posibilidades 
+            de selección para ayudarte.
             </p>
         </div>
       </div>
     </div>
     <div class="container mt-5 pt-5">
       <div class="row">
-        <div class="col-12 col-lg-6">
-          <h2></h2>
+        <div class="col-12 col-lg-6" id="RGB">
+          <h3>RGB ¿Qué es este sistema de color?</h3>
           <p>
+            literalmente sus siglas significan (rojo, verde y azul en inglés: "red, green and blue")
+            Esto se refiere a que combina los colores antes mencionados y sus valores representan directamente
+            la cantidad de cada uno de estos colores. Es decir rojo es el primer valor, verde el segundo y por 
+            último el azul.
+            </p>
+          <p>
+            El modelo RGB se basa en lo que se conoce como síntesis aditiva de color. 
+            Empleando la luminosidad del rojo, el verde y el azul en diferentes proporciones, se produce el resto de los colores. 
+            Los monitores de las computadoras (ordenadores) apelan a la síntesis aditiva de color para la representación de los colores.
+          </p>
+
+            <p>
+              Esto te podrá servir como pista si no sabes bien cómo funciona este sistema de color. 
             </p>
         </div>
         <div class="col-12 col-lg-6">
@@ -89,8 +104,21 @@
           <img src="IMG/color.png" class="mx-auto imagen" alt="" />
         </div>
         <div class="col-12 col-lg-6">
-          <h2></h2>
-          <p></p>
+          <h3>Nuestros ojos</h3>
+          <p>¿Qué es lo que pasa cuando unimos dos colores y vemos otro distinto? Pues este fenómeno se debe exclusivamente al 
+            funcionamiento de nuestros ojos y como envía las señales de luz a nuestro cerebro.
+          </p>
+          <p>
+            Básicamente podemos decir que nuestros ojos están formados por células que son sensibles a la luz que recibimos 
+            y gracias a ellas distinguimos los colores. Estas células están formadas por unas llamadas bastones y otras llamadas conos, 
+            éstas últimas se dividen en tres tipos y son las que generan la información del color que vemos.
+          </p>
+          <p>
+            Cada uno de estos tres tipos de conos, funcionan a una frecuencia diferente y precisamente tienen máxima sensibilidad 
+            por los tres colores que generan el RGB. De esta forma combinado estos colores se generan nuevas frecuencias que hacen variar 
+            nuestra curva de sensibilidad a los colores. El resultado es a apreciación de múltiples colores con solamente la combinación 
+            de los tres básicos a los que nuestros ojos son especialmente sensibles.
+          </p>
         </div>
       </div>
     </div>
